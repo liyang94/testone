@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+</head>
+<body>
+<script type="text/javascript">
+//网站工程学院 李阳 1505E 高级程序设计
+
+//1
+for( i=0, j=0;i<10,j<6;i++,j++){
+    k= i + j;
+}
+
+    console.log(k)
+
+//2
+    var arr=[];
+    var array=['one','two','three','four']
+    for(var i=0;i<array.length;i++){
+        var x={}
+        x.no=i;
+        x.text=array[i];
+        x.invoke=function(){
+            console.log(i)
+        }
+        arr.push(x)
+    }
+
+console.log(arr[0].invoke())
+console.log(arr[1].invoke())
+console.log(arr[2].invoke())
+console.log(arr[3].invoke())
+
+    //3
+
+    function A(){
+        getAge=function(){
+            alert(1)
+        }
+        return this
+    }
+A.getAge=function(){
+    alert(2)
+}
+A.prototype.getAge=function(){
+    alert(3)
+}
+
+    var getAge=function(){
+        alert(4)
+    }
+    function getAge(){
+        alert(5)
+    }
+    console.log(A.getAge())
+    console.log(getAge())
+    console.log(A().getAge())
+    console.log(getAge())
+
+    //4
+function parseUrl() {
+    var urlobj = {};
+    //补全代码：
+    return urlobj;
+}
+
+    //5
+var aBtn=[]
+ aBtn.length=3
+for(var i = 0; i<aBtn.length; i++) {
+    aBtn[i].onclick = function () {
+        console.log(i)
+    }
+}
+       //8:46
+    //网站工程学院   高级工程程序 李阳  1505E
+</script>
+</body>
+</html>
