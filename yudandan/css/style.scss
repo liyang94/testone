@@ -1,0 +1,87 @@
+@import "reset.css";
+@import "../fonts/iconfont.css";
+*{
+	box-sizing: border-box;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	font-size: 0.12rem;
+}
+.iconfont{
+	font-size: 0.16rem;
+}
+.wrap{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	header{
+		width: 100%;
+		.header{
+			height: 0.48rem;
+			background:#000 ;
+			display: flex;
+			justify-content: space-between;
+			padding:0.1rem;
+			color: #fff;
+			align-items: center;
+			font-size: 0.18rem;
+		}
+	}
+}
+.mark{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.4);
+	top:0;
+	left:0;
+	.content{
+		position: absolute;
+		top:1.05rem;
+		width: 90%;
+		left:5%;
+		height:4.41rem;
+		background: #fff;
+		border-radius: 0.06rem;
+		.up{
+			margin:0.36rem 0;
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			font-size: 0.18rem;
+		}
+		.logo{
+			width: 1.38rem;
+			height: 0.4rem;
+
+		} 
+		.login{
+			width: 100%;
+			height: 0.48rem;
+			display: flex;
+			align-items: center;
+			padding:0 0.1rem;
+			img{
+				width:0.18rem; 
+				margin:0 0.1rem;
+			}
+			input{
+				height: 100%;
+				border:none;
+				outline: none;
+				font-size: 0.16rem;
+			}
+		}
+		button{
+			width: 80%;
+			height: 0.45rem;
+			background: #2fba77;
+			border:none;
+			border-radius: 0.06rem;
+			margin:0.28rem 10%;
+			font-size: 0.18rem;
+			color: #fff;
+		}
+	}
+}
