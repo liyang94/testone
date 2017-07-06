@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+header {
+  width: 100%;
+  height: 45px;
+  background: #393a3f;
+  line-height: 45px;
+  color: #fff;
+  font-size: 15px; }
+  header p {
+    display: inline-block; }
+  header .left {
+    width: 45px;
+    height: 44px;
+    border-right: 1px solid #222326;
+    text-align: center;
+    margin-right: 10px; }
+  header .right {
+    float: right;
+    margin-right: 10px; }
+    header .right .iconfont {
+      font-size: 20px; }
+
+section {
+  width: 100%;
+  background: #818d9b;
+  padding: 50px 10px; }
+  section .wrap {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+    padding-top: 20px; }
+    section .wrap p {
+      text-align: center;
+      font-size: 14px;
+      color: #666; }
+      section .wrap p img {
+        width: 120px; }
+    section .wrap p:nth-child(2) {
+      margin-bottom: 40px; }
+    section .wrap .inp {
+      width: 100%;
+      height: 30px;
+      padding: 0 15px;
+      border-bottom: 1px solid #ccc;
+      line-height: 30px;
+      margin-bottom: 30px;
+      padding: 0 15px; }
+      section .wrap .inp img {
+        height: 20px;
+        margin-right: 10px; }
+      section .wrap .inp input {
+        border: none; }
+    section .wrap .inp:nth-of-type(3) {
+      height: 36px;
+      border: none;
+      margin-bottom: 60px; }
+      section .wrap .inp:nth-of-type(3) button {
+        width: 100%;
+        height: 35px;
+        background: #2fba77;
+        color: #fff;
+        border: none; }
+
+/*# sourceMappingURL=style.css.map */
